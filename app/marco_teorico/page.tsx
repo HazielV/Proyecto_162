@@ -3,7 +3,7 @@ import Sidebar from "@/components/Sidebar";
 export default function page() {
   return (
     <div className="w-full h-full flex flex-col justify-center items-center py-10 bg-white">
-      <Sidebar selected="marco_teorico" />
+      <Sidebar className="bg-white/70" selected="marco_teorico" />
       <div className="min-h-[100vh] flex justify-center items-center flex-col  gap-12 w-full  py-14 ">
         <div className="font-normal text-6xl white  px-8 py-6  w-4/5  flex  ">
           <div className="">

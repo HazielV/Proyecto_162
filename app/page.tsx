@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="w-full h-full flex flex-col justify-center items-center bg-black text-white">
-      <Sidebar selected="inicio" />
+      <Sidebar className="bg-black/70" selected="inicio" />
       <div className="min-h-[100vh] flex justify-center items-center flex-col   w-full   ">
         <div className="font-normal text-9xl white  px-8 py-6 border-dashed w-4/5 border-gray-600/40  ">
           <p className="max-w-5xl">Más que </p>
@@ -117,6 +117,99 @@ export default function Home() {
               médica. No es solo un sistema, es una experiencia de cuidado que
               se ajusta y evoluciona contigo
             </p>
+          </div>
+        </div>
+      </div>
+      <div className="min-h-[100vh] flex justify-center items-center flex-col  w-4/5 py-32 ">
+        <div className=" max-w-7xl text-justify text-7xl text-[#DADADA]   border-dashed  border-gray-600/40 ">
+          <p>
+            Explorando el Pasado para Construir el Futuro: Donde la Innovación
+            en Salud Encuentra sus Raíces
+          </p>
+        </div>
+        <div className="grid grid-cols-2 gap-14 p-5 mt-10 py-24 relative place-content-center">
+          <div className="flex flex-col gap-10 p-12 py-14 rounded-md bg-gray-100/5 backdrop-filter backdrop-blur-[15px] z-20 ">
+            <span className="text-5xl">Salud Electrónica</span>
+            <p className="max-w-md text-2xl">
+              En la última década, la salud electrónica ha emergido como un
+              componente clave en la transformación del sector de la salud. Este
+              cambio ha sido impulsado por avances tecnológicos que permiten la
+              transición de registros médicos en papel a sistemas digitales,
+              brindando nuevas oportunidades para mejorar la calidad de la
+              atención y la eficiencia en la gestión de la información clínica.
+            </p>
+          </div>
+          <div className="flex flex-col gap-10 p-12 py-14 rounded-md bg-gray-100/5 backdrop-filter backdrop-blur-[15px]">
+            <span className="text-5xl">Evolución</span>
+            <p className="max-w-md text-2xl">
+              El desarrollo de sistemas de salud electrónica tiene sus raíces en
+              los primeros intentos de informatizar registros médicos en la
+              década de 1960. Sin embargo, el cambio significativo comenzó a
+              ganar impulso en la década de 1990 con la proliferación de la
+              tecnología de la información en la sociedad.
+            </p>
+          </div>
+          <div className="flex flex-col gap-10 p-12 py-14 rounded-md bg-gray-100/5 backdrop-filter backdrop-blur-[15px]">
+            <span className="text-5xl">Motivaciones </span>
+            <p className="max-w-md text-2xl">
+              La transición a sistemas de salud electrónica ha sido motivada por
+              diversas razones, desde mejorar la accesibilidad y la precisión de
+              la información del paciente hasta facilitar la coordinación entre
+              profesionales de la salud y reducir los costos asociados con la
+              administración de la atención médica. La necesidad de abordar los
+              desafíos inherentes a la gestión de registros en papel, como la
+              pérdida de datos y la falta de interoperabilidad, ha impulsado la
+              adopción de enfoques más avanzados y tecnológicos.
+            </p>
+          </div>
+          <div className="flex flex-col gap-10 p-12 py-14 rounded-md bg-gray-100/5 backdrop-filter backdrop-blur-[15px]">
+            <span className="text-5xl">Marco Legal </span>
+            <p className="max-w-md text-2xl">
+              A medida que la tecnología de salud electrónica ha evolucionado,
+              las legislaciones y regulaciones también han seguido el ritmo para
+              garantizar la seguridad y privacidad de los datos de los
+              pacientes. Normativas como la Ley de Portabilidad y
+              Responsabilidad del Seguro Médico (HIPAA) en los Estados Unidos
+              han influido en el desarrollo e implementación de sistemas de
+              salud electrónica, estableciendo estándares para la protección de
+              la información de salud.
+            </p>
+          </div>
+          <div className="flex flex-col gap-10 p-12 py-14 rounded-md bg-gray-100/5 backdrop-filter backdrop-blur-[15px]">
+            <span className="text-5xl">Estado Actual </span>
+            <p className="max-w-md text-2xl">
+              Actualmente, la adopción de sistemas de salud electrónica varía a
+              nivel mundial. Algunas regiones han implementado de manera exitosa
+              infraestructuras avanzadas de salud electrónica, mientras que
+              otras están en las primeras etapas de este proceso. Las tendencias
+              actuales incluyen la integración de inteligencia artificial,
+              análisis de big data y tecnologías móviles para mejorar aún más la
+              atención al paciente y la eficiencia operativa.
+            </p>
+          </div>
+          <div className="flex flex-col gap-10 p-12 py-14 rounded-md bg-gray-100/5 backdrop-filter backdrop-blur-[15px]">
+            <span className="text-5xl">Brecha y Oportunidades </span>
+            <p className="max-w-md text-2xl">
+              A pesar de los avances, persisten desafíos, como la
+              interoperabilidad entre diferentes sistemas, la resistencia al
+              cambio en algunos sectores de la atención médica y preocupaciones
+              sobre la ciberseguridad. No obstante, estas brechas también
+              presentan oportunidades para la innovación y la mejora continua de
+              los sistemas de salud electrónica.
+            </p>
+          </div>
+          <div className="col-span-2 flex justify-center">
+            <div className="flex flex-col gap-10 p-12 py-14 rounded-md bg-gray-100/5 backdrop-filter backdrop-blur-[15px]">
+              <span className="text-5xl">Conclusiones </span>
+              <p className="max-w-md text-2xl">
+                En resumen, los antecedentes revelan la evolución y la
+                complejidad del campo de la salud electrónica. Este proyecto de
+                análisis y diseño de sistemas de información se enmarca en un
+                contexto en el que la tecnología desempeña un papel fundamental
+                en la optimización de la atención médica y la gestión de la
+                información clínica.
+              </p>
+            </div>
           </div>
         </div>
       </div>

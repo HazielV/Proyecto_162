@@ -2,10 +2,16 @@ import Link from "next/link";
 
 interface props {
   selected: string;
+  className?: string;
 }
-export default function Sidebar({ selected }: props) {
+export default function Sidebar({ selected, className }: props) {
   return (
-    <div className="fixed w-full flex items-center justify-center top-0 px-5 py-5 border-b border-[#e5e5e542] backdrop-blur-sm z-30">
+    <div
+      className={
+        "fixed w-full flex items-center justify-center top-0 px-5 py-5 border-b border-[#e5e5e542] backdrop-blur-sm z-30 " +
+        className
+      }
+    >
       <ul className="flex gap-20 ">
         <Link href={"/"}>
           <li
