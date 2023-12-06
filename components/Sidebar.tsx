@@ -65,6 +65,18 @@ export default function Sidebar({
             Orientado a objetos
           </li>
         </Link>
+        <Link href={"/video"}>
+          <li
+            className={
+              " cursor-pointer  " +
+              (selected === "video"
+                ? "text-blue-500 font-bold"
+                : "hover:text-blue-500 font-medium")
+            }
+          >
+            Video
+          </li>
+        </Link>
       </ul>
     </div>
   );
