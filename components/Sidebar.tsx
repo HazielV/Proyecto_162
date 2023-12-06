@@ -4,7 +4,10 @@ interface props {
   selected: string;
   className?: string;
 }
-export default function Sidebar({ selected, className }: props) {
+export default function Sidebar({
+  selected,
+  className,
+}: props) {
   return (
     <div
       className={
@@ -41,7 +44,8 @@ export default function Sidebar({ selected, className }: props) {
           <li
             className={
               " cursor-pointer  " +
-              (selected === "analisis_estructurado"
+              (selected ===
+              "analisis_estructurado"
                 ? "text-blue-500 font-bold"
                 : "hover:text-blue-500 font-medium")
             }
@@ -59,18 +63,6 @@ export default function Sidebar({ selected, className }: props) {
             }
           >
             Orientado a objetos
-          </li>
-        </Link>
-        <Link href={"/videos"}>
-          <li
-            className={
-              " cursor-pointer  " +
-              (selected === "videos"
-                ? "text-blue-500 font-bold"
-                : "hover:text-blue-500 font-medium")
-            }
-          >
-            Videos
           </li>
         </Link>
       </ul>
